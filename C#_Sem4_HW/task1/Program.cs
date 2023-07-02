@@ -1,4 +1,6 @@
-﻿int APowB (int num1, int num2)
+﻿// Цикл, который принимает на вход два числа А и В и возводит число А в натуральную степень числа В
+
+int APowB (int num1, int num2)
 {
     int res = 1;
     for(int i = 1; i <= Math.Abs(num2); i++)
