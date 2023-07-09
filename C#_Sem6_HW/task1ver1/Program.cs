@@ -35,5 +35,3 @@ int [] enteredNumbers = {num1, num2, num3, num4, num5};
 
 ShowEnteredNumbers(enteredNumbers);
 NumberOfPosElem(enteredNumbers);
-
-
