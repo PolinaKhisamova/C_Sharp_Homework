@@ -1,4 +1,7 @@
-﻿double [,] Create2DArray()
+﻿// Программа, которая на вход принимает позиции элемента в двуменом массиве,
+// и возвращает значение этого элемента или же указание, что такого элемента нет.
+
+double [,] Create2DArray()
 {
     Console.Write("How many rows? - ");
     int rows = Convert.ToInt32(Console.ReadLine());

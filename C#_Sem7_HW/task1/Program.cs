@@ -1,4 +1,6 @@
-﻿double [,] Create2DArray()
+﻿// Задать двумерный массив размером m*n, заполненный случайными вещественными числами.
+
+double [,] Create2DArray()
 {
     Console.Write("How many rows? - ");
     int rows = Convert.ToInt32(Console.ReadLine());
